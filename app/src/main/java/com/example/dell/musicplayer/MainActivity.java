@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_actionbar);
         if(toolbar != null) {
             setSupportActionBar(toolbar);
-            getSupportActionBar().setTitle("Dark's Music Player");
+            getSupportActionBar().setTitle("Music Player");
 
         }
         lv = (ListView) findViewById(R.id.lvPlaylist);

@@ -15,7 +15,7 @@
     <SeekBar
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/seekBar"
+        android:id="@+id/sb"
         android:layout_marginTop="116dp"
         android:indeterminate="false"
         android:layout_alignParentTop="true"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:text="||"
         android:id="@+id/btPLay"
-        android:layout_below="@+id/seekBar"
+        android:layout_below="@+id/sb"
         android:layout_centerHorizontal="true"
         android:textColor="#800080" />
 
@@ -64,7 +64,7 @@
         android:text=">|"
         android:id="@+id/btNxt"
         android:layout_alignTop="@+id/btFF"
-        android:layout_alignEnd="@+id/seekBar"
+        android:layout_alignEnd="@+id/sb"
         android:textColor="#800080" />
 
     <TextView
